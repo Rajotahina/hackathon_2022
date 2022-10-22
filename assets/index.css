@@ -1,0 +1,116 @@
+body {
+    font-family: raleway;
+}
+
+/* header */
+header {
+    height: auto;
+    padding: 10px;
+    background-image: url("/Image/font.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+
+
+}
+
+header nav .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+
+header nav .nav-list2 {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+
+header ul .list {
+    display: flex;
+    margin-top: auto;
+    border-radius: 15%;
+}
+
+header ul .list:hover {
+    background-color: ;
+}
+
+header nav .nav-list .list a {
+    display: block;
+    padding: 15px;
+    margin: 9px 0;
+    text-decoration: none;
+    padding: 0px 10px;
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+header nav .nav-list .list a:hover {
+    color:black ;
+}
+
+.para {
+    top: 40%;
+    left: 70%;
+    color: white;
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    margin-top: ;
+    text-align: left;
+}
+
+main {
+    background: #012840;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #012840, #811520);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #012840, #811520);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+section {
+    background-color: #3c4c5c;
+    height: 50vh;
+}
+
+.first {
+    background: #012840;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #012840, #811520);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #012840, #811520);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+table {
+    border: 2px solid;
+}
+
+table tr {
+    border: 2px solid;
+}
+
+#part {
+    background-color: aliceblue;
+    width: 50%;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.logo {
+    margin-top: -55px;
+}
+
+.liste2 li a {
+    list-style-type: none;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
